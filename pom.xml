@@ -57,14 +57,18 @@
 		</dependency>
 		
 		<dependency>
-		  <groupId>p6spy</groupId>
-		  <artifactId>p6spy</artifactId>
-		  <version>3.9.0</version>
+			  <groupId>p6spy</groupId>
+			  <artifactId>p6spy</artifactId>
+			  <version>3.9.0</version>
 		</dependency>
-
 		
+		<dependency>
+		    <groupId>org.projectlombok</groupId>
+		    <artifactId>lombok</artifactId>
+		    <version>1.18.16</version>
+		    <scope>provided</scope>
+	  </dependency>
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -73,5 +77,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
